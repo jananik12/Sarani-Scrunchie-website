@@ -1,0 +1,124 @@
+.container{
+  background-color: #f5cac2;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: flex-start;
+  width: 100%;
+ 
+  
+
+}
+
+.item{
+  margin: 5px;
+  background-color: #f5cac2;
+  margin: 5px;
+  width: auto;
+  padding: 5px;
+  height: auto;
+
+  
+
+}
+
+.item1 nav{
+	
+	height: 80px;
+	width: 100%;
+}
+.item1 label {
+	color: rgba(5, 1, 1, 0.837);
+	font-size: 50px;
+	line-height: 80px;
+	padding: 10px;
+	font-weight: bold;
+
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 10s;
+}
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: orange;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+.item1 ul{
+	float: right;
+	margin-right: 20px;
+  
+}
+
+.item1 ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+.item1 ul li a{
+	color: black;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+  
+}
+.item1.active,a:hover{
+	background: lightgray;
+	transition: .5s;
+}
+
+.item2 h1{
+  padding: 5px;
+   font-size: 35px;
+   font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+.item2 ul {
+  
+  align-content: center;
+  font-size: 20px;
+}
+.item2  h2{
+  text-align: center;
+  font-size: 25px;
+}
+.item2 table{
+  font-size: 20px;
+}
+.item2 td{
+  text-align: center;
+}
+
+.item3 img{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.item4 p{
+  text-align: center;
+  font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ .item4 button{
+  
+  display: inline-block;
+  background-color: #e4ddf4;
+  padding: 20px;
+  width: 200px;
+  color: black;
+  text-align: center;
+  border-radius: 50px;
+  font-family:Sans-serif ;
+  font-size: 22px;
+}
+
