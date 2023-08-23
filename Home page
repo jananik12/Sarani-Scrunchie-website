@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sarani Scrunchie</title>
+  <link rel="stylesheet" href="abc.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="item item1">
+      <nav>
+        <label>SARANI</label>
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Feedback</a></li>
+  
+  
+        </ul>
+  
+  
+      </nav>
+
+
+
+    </div>
+
+    <div class="item item2">
+      <h1 > <u> Iterms Name </u></h1>
+    	<ul >
+					<li> Size of Scrunchie </li>
+						
+					<li> Colour of Scrunchie </li>
+						
+					<li> Meterial of Scrunchie </li>
+						
+				</ul>
+
+      <table border="1" style="width:100%">
+          <h2>Scrunchie</h2>
+          <tr>
+            <th>Size</th>
+            <th>Colour</th>
+            <th>Meterial</th>
+          </tr>
+          
+          <tr>
+            <td>Small</td>
+            <td rowspan="4">Multi Colour</td>		
+            <td>Fabic</td>
+          </tr>
+          <tr>
+            <td>Medium</td>
+            <td>Sillk</td>
+          </tr>
+          <tr>
+            <td>Large</td>
+            <td rowspan="2">Velvet</td>
+          </tr>
+          <tr>
+            <td>Jumbo</td>
+            		
+            
+          </tr>
+        </table>
+         
+    </div>
+
+    <div class="item item3">
+          <img src="p-1.jpeg" alt="scrunchies" >
+					<img src="p-2.jpg" alt="scrunchies" >
+					<img src="p-4.jpeg" alt="scrunchies" >
+					<img src="p-5.jpeg" alt="scrunchies" >
+					<img src="p-7.jpg" alt="scrunchies" >
+          <img src="p-8.jpg" alt="scrunchies" >
+         
+				
+    </div>
+
+    <div class="item item4">
+      <button onclick="myFunction()">ORDER NOW</button>
+      <p id="demo"></p>
+
+      <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Select item";
+        }
+        </script>
+      <p> To buy your favorite products. Just contact us.<br>
+        077-2525972</p>
+      
+      
+    </div>
+  </div>
+  
+</body>
+</html>
